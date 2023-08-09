@@ -754,16 +754,21 @@ header .headerBack{
 
 footer{
     width: 100%;
-    padding: 73px 616px 73px 290px;
     box-sizing: border-box;
     background-color: white;
+    padding-top: 73px;
+    box-sizing: border-box;
+}
+footer .inner{
     display: flex;
 }
 footer .logoWrap{
     display: flex;
     margin-top: 12px;
     gap: 26px;
-    padding-right: 15%;
+    padding-right: 199px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
 }
 footer .logoWrap .logoLeft{}
 footer .logoWrap .logoRight{}
@@ -771,6 +776,8 @@ footer .logoWrap .logoRight{}
 footer .infoWrap{
     justify-content: center;
     align-items: center;
+    padding-right: 226px;
+    box-sizing: border-box;
 }
 footer .infoWrap .top{
     margin-bottom: 19px;
@@ -802,4 +809,9 @@ footer .infoWrap .bottom p{
     font-size: 14px;
     font-weight: 500;
     font-family: "Pretendard", sans-serif;
+}
+footer .topBtm{
+    padding-top: 42px;
+    box-sizing: border-box;
+    font-size: 0;
 }
