@@ -179,7 +179,7 @@ header .headTop .right{
     left: 50%;
     top: 0px;
     transform: translateX(-50%);
-    z-index: 999;
+    z-index: 99;
     /* border: 1PX SOLID BLACK; */
 }
 .home .boardWrap .eye img{
@@ -452,10 +452,10 @@ header .headTop .right{
 .resume .left.ani.on :is(strong, p) {
     transform: translateY(0);
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .resume .left.ani.on strong {transition-delay: 0s}
-.resume .left.ani.on p {transition-delay: 0.2s}
+.resume .left.ani.on p {transition-delay: 0.1s}
 
 
 .resume .right.ani {}
@@ -466,7 +466,7 @@ header .headTop .right{
 .resume .right.ani.on :is(strong, p) {
     transform: translateY(0);
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 .resume .right.ani.on strong:first-child {transition-delay: 0s}
 .resume .right.ani.on p:first-child {transition-delay: 0.1s}
