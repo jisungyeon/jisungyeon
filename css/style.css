@@ -423,7 +423,7 @@ header .headTop .right{
 }
 .aboutMe .resumeWrap .resume strong{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
     margin-bottom: 30px;
 }
@@ -434,13 +434,14 @@ header .headTop .right{
     line-height: 31px;
 }
 
-.aboutMe .resumeWrap .resume .left{}
-.aboutMe .resumeWrap .resume .right p{
+.aboutMe .resumeWrap .resume .left{
     margin-bottom: 74px;
     /* color: #FF9898;
     background-color: #FF9898; */
 }
-
+.aboutMe .resumeWrap .resume .right p{
+    margin-bottom: 50px;
+}
 
 
 /* ani */
@@ -458,20 +459,29 @@ header .headTop .right{
 .resume .left.ani.on p {transition-delay: 0.1s}
 
 
-.resume .right.ani {}
-.resume .right.ani :is(strong, p) {
+
+.resume .rightTop.ani {
     transform: translateY(50px);
     opacity: 0;
 }
-.resume .right.ani.on :is(strong, p) {
+.resume .rightTop.ani.on {
     transform: translateY(0);
     opacity: 1;
-    transition: 0.7s;
+    transition: 0.5s;
 }
-.resume .right.ani.on strong:first-child {transition-delay: 0s}
-.resume .right.ani.on p:first-child {transition-delay: 0.1s}
-.resume .right.ani.on strong:last-child {transition-delay: 0.2s}
-.resume .right.ani.on p:last-child {transition-delay: 0.3s}
+.resume .rightBtm.ani {
+    transform: translateY(50px);
+    opacity: 0;
+}
+.resume .rightBtm.ani.on {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s;
+}
+.resume .rightTop.ani.on strong{transition-delay: 0s}
+.resume .rightTop.ani.on p{transition-delay: 0.1s}
+.resume .rightBtm.ani.on strong{transition-delay: 0.2s}
+.resume .rightBtm.ani.on p{transition-delay: 0.3s}
 
 
 
