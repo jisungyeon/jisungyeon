@@ -82,12 +82,7 @@ header .headerMenu .headerGnb{
     display: flex;
     margin-top: 32px;
 }
-header .headerMenu .headerGnb:hover .sub{
-    display: block;
-}
-header .headerMenu .headerGnb:hover .headerBack{
-    display: block;
-}
+
 header .headerMenu .headerGnb > li{
     width: 166px;
     text-align: center;
@@ -103,10 +98,20 @@ header .headerMenu .headerGnb > li:hover >a{
     color: #10AACE;
 }
 header .headerMenu .headerGnb .sub{
-    display: none;
+    /* display: none; */
+    opacity: 0;
     font-weight: 400;
     font-family: "Pretendard", sans-serif;
 }
+
+
+header .headerInner:hover .headerBack,
+header .headerInner:hover .headerGnb .sub{
+    display: block;
+    opacity: 1;
+}
+
+
 header .headerMenu .headerGnb .sub li:nth-child(1){
     margin-top: 63px;
 }
