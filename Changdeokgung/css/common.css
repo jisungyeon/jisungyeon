@@ -55,12 +55,7 @@ header .headerMenu .headerGnb{
     display: flex;
     margin-top: 32px;
 }
-header .headerMenu .headerGnb:hover .sub{
-    display: block;
-}
-header .headerMenu .headerGnb:hover .headerBack{
-    display: block;
-}
+
 header .headerMenu .headerGnb > li{
     width: 166px;
     text-align: center;
@@ -76,10 +71,20 @@ header .headerMenu .headerGnb > li:hover >a{
     color: #10AACE;
 }
 header .headerMenu .headerGnb .sub{
-    display: none;
+    /* display: none; */
+    opacity: 0;
     font-weight: 400;
     font-family: "Pretendard", sans-serif;
 }
+
+
+header .headerInner:hover .headerBack,
+header .headerInner:hover .headerGnb .sub{
+    display: block;
+    opacity: 1;
+}
+
+
 header .headerMenu .headerGnb .sub li:nth-child(1){
     margin-top: 63px;
 }
@@ -110,4 +115,72 @@ header .headerBack{
     display: none;
     transition: .5s;
     border-radius: 0 0 10px 10px;
+}
+
+
+
+/*----------푸터---------*/
+
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 73px;
+    box-sizing: border-box;
+}
+footer .inner{
+    display: flex;
+}
+footer .logoWrap{
+    display: flex;
+    margin-top: 12px;
+    gap: 26px;
+    padding-right: 199px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+}
+footer .logoWrap .logoLeft{}
+footer .logoWrap .logoRight{}
+
+footer .infoWrap{
+    justify-content: center;
+    align-items: center;
+    padding-right: 226px;
+    box-sizing: border-box;
+}
+footer .infoWrap .top{
+    margin-bottom: 19px;
+}
+footer .infoWrap .top ul{
+    font-size: 0;
+}
+footer .infoWrap .top ul li{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    font-family: "Pretendard", sans-serif;
+    font-size: 14px;
+}
+footer .infoWrap .top ul li:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background: #444;
+    margin: 0 20px;
+    vertical-align: middle;
+
+
+}
+footer .infoWrap .bottom{}
+footer .infoWrap .bottom p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Pretendard", sans-serif;
+}
+footer .topBtm{
+    padding-top: 42px;
+    box-sizing: border-box;
+    font-size: 0;
 }
