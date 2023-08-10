@@ -165,3 +165,133 @@
     font-weight: 500;
     line-height: 20px;
 }
+
+.cos4 {
+    width: 100%;
+    text-align: center;
+}
+
+
+.cos4 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: "GmarketSans", sans-serif;
+    margin-bottom: 43px;
+    font-size: 20px;
+    line-height: 40px; ;
+    margin-top: 78px;
+}
+.cos4 h3 img{
+    margin-right: 13px;
+}
+
+.cos4 .img{
+    background-image: url(../img/sub1_7.png);
+    width: 100%;
+    height: 655px;
+    background-repeat: no-repeat;
+    margin-bottom: 27px;
+}
+
+.cos4 p{
+    color: #333;
+    font-family: "GmarketSans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 97px;
+    box-sizing: border-box;
+}
+
+.cos5 {
+    width: 100%;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+
+.cos5 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: "GmarketSans", sans-serif;
+    margin-bottom: 43px;
+    font-size: 20px;
+    line-height: 40px; ;
+    padding-top: 78px;
+    box-sizing: border-box;
+}
+.cos5 h3 img{
+    margin-right: 13px;
+}
+
+.cos5 .img{
+    background-image: url(../img/sub1_8.png);
+    width: 100%;
+    height: 655px;
+    background-repeat: no-repeat;
+    margin-bottom: 27px;
+}
+
+.cos5 p{
+    color: #333;
+    font-family: "GmarketSans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 97px;
+    box-sizing: border-box;
+}
+
+
+
+.cos6{
+    padding: 76px 0 85px 0;
+
+}
+
+.cos6 .inner{
+        display: flex;
+    justify-content: space-between;
+}
+
+.cos6 h3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+    font-family: "GmarketSans", sans-serif;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 40px; ;
+}
+.cos6 h3 img{
+    margin-right: 13px;
+}
+
+.cos6 .left .img{
+    background-image: url(../img/sub1_9.png);
+    width: 648px;
+    height: 568px;
+    background-repeat: no-repeat;
+    margin-bottom: 27px;
+}
+
+.cos6 p{
+    color: #333;
+    font-family: "GmarketSans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.cos6 .right .img{
+    background-image: url(../img/sub1_10.png);
+    width: 648px;
+    height: 568px;
+    background-repeat: no-repeat;
+    margin-bottom: 27px;
+}
