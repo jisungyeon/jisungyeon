@@ -419,15 +419,13 @@ header .headTop .right{
     padding-top: 117px;
     padding-left: 66px;
     box-sizing: border-box;
+
 }
 .aboutMe .resumeWrap .resume strong{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
     display: block;
     margin-bottom: 30px;
-}
-.aboutMe .resumeWrap .resume .right strong{
-    margin-bottom: 16px;
 }
 .aboutMe .resumeWrap .resume p{
     margin-bottom: 21px;
@@ -435,8 +433,12 @@ header .headTop .right{
     font-weight: 300;
     line-height: 31px;
 }
+
+.aboutMe .resumeWrap .resume .left{}
 .aboutMe .resumeWrap .resume .right p{
-    margin-bottom: 36px;
+    margin-bottom: 74px;
+    /* color: #FF9898;
+    background-color: #FF9898; */
 }
 
 
