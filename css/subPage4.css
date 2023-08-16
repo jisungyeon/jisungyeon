@@ -74,11 +74,10 @@
     border-radius: 12px;
     border: transparent;
     box-sizing: border-box;
-    outline: none;
-    padding-left: 18px;
 }
 
 .noticeChart .search input::placeholder{
+    padding-left: 18px;
     box-sizing: border-box;
     color: #A1B2B9;
     font-family: 'Noto Sans KR', sans-serif;
