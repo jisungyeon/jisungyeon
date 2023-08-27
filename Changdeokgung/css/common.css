@@ -43,6 +43,7 @@ header .headerInner {
     justify-content: center;
     background: white;
     transition: 0.25s;
+
 }
 header .headerLogo{
     width: 332px;
