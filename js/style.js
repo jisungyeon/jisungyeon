@@ -60,10 +60,28 @@ function scrollAni() {
     }
 
 
-}
+};
 
 
+const $bannerWrap = $(".portfolioWrap .portfolio3");
+const $banner = $(".layerPop");
 
+$bannerWrap.find(`.design1`).on("click", function() {
+    $("body").addClass("popupOn");
+    $banner.show();
+});
+
+// for (let i = 1; i <= 5; i++) {
+//     $bannerWrap.find(`.design${i}`).on("click", function() {
+//         $("body").addClass("popupOn");
+//         $banner.show();
+//     });
+// }
+
+$banner.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $banner.hide();
+});
 
 
 

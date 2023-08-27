@@ -12,7 +12,7 @@ function showFloatingMenu() {
             $header.addClass("on");
             $sub.addClass("on");
             $header.find(".headerBack").css({
-                width: "100%",
+                width: "100%"
               });
         } else {
             $header.removeClass("on");

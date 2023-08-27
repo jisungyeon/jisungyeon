@@ -5,6 +5,7 @@
     margin: 0 auto;
 }
 
+
 .followCursor{
     width: 80px;
     height: 80px;
@@ -292,7 +293,7 @@ header .headTop .right{
 .aboutMe h2{
     font-family: "Pretendard", sans-serif;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 99px;
 }
 .aboutMe .titWrap{
@@ -311,6 +312,7 @@ header .headTop .right{
 .aboutMe .titWrap h3{
     font-size: 26px;
     box-sizing: border-box;
+    font-weight: 500;
 }
 .aboutMe .titWrap strong{
     font-size: 26px;
@@ -392,7 +394,7 @@ header .headTop .right{
 
 .aboutMe .resumeWrap{
     background: linear-gradient(180deg, rgba(255, 152, 208, 0.00) 0%, #FF9898 100%);
-    padding-top: 117px;
+    padding-top: 69px;
     padding-bottom: 140px;
     box-sizing: border-box;
     position: relative;
@@ -400,7 +402,7 @@ header .headTop .right{
 .aboutMe .resumeWrap .img{
     position: absolute;
     left: 50%;
-    top: 101px;
+    top: 69px;
     transform: translate(-50%);
 }
 .aboutMe .resumeWrap .resume{
@@ -411,67 +413,99 @@ header .headTop .right{
 }
 .aboutMe .resumeWrap .resume .left,
 .aboutMe .resumeWrap .resume .right{
-    width: 648px;
+    width: 663px;
     height: 585px;
     border-radius: 30px;
     border: 1px solid #000;
     background: #FFF;
-    padding-top: 117px;
-    padding-left: 66px;
+    padding-top: 109px;
+    padding-left: 56px;
     box-sizing: border-box;
-
 }
 .aboutMe .resumeWrap .resume strong{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
     margin-bottom: 30px;
 }
 .aboutMe .resumeWrap .resume p{
-    margin-bottom: 21px;
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 31px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
 }
-
-.aboutMe .resumeWrap .resume .left{}
-.aboutMe .resumeWrap .resume .right p{
-    margin-bottom: 74px;
-    /* color: #FF9898;
-    background-color: #FF9898; */
+.aboutMe .resumeWrap .resume .left strong{
+    margin-bottom: 50px;
+}
+.aboutMe .resumeWrap .resume .left p{
+    margin-bottom: 30px;
+}
+.aboutMe .resumeWrap .resume .left .profileImg{
+    margin-left: 391px;
+    margin-top: -190px;
+}
+.aboutMe .resumeWrap .resume .right strong{
+    margin-bottom: 16px;
+}
+.aboutMe .resumeWrap .resume .right .careerWrap{}
+.aboutMe .resumeWrap .resume .right .career1,
+.aboutMe .resumeWrap .resume .right .career2,
+.aboutMe .resumeWrap .resume .right .career3{
+    display: flex;
+}
+.aboutMe .resumeWrap .resume .right .career1 p:first-child{
+    margin-right: 28px;
+}
+.aboutMe .resumeWrap .resume .right .career2 p:first-child{
+    margin-right: 115px;
+}
+.aboutMe .resumeWrap .resume .right .career3 p:first-child{
+    margin-right: 20px;
+}
+.aboutMe .resumeWrap .resume .right .career3 {
+    margin-bottom: 28px;
+}
+.aboutMe .resumeWrap .resume .right .profileWrap{
+    display: flex;
+}
+.aboutMe .resumeWrap .resume .right .profileWrap .rocket img{
+    width: 186px;
+    height: 186px;
+    margin-top: -20px;
+    margin-left: 34px;
 }
 
 
 
 /* ani */
 .resume .left.ani {}
-.resume .left.ani :is(strong, p) {
+.resume .left.ani :is(div, strong, p) {
     transform: translateY(50px);
     opacity: 0;
 }
-.resume .left.ani.on :is(strong, p) {
+.resume .left.ani.on :is(div, strong, p) {
     transform: translateY(0);
     opacity: 1;
     transition: 0.3s;
 }
 .resume .left.ani.on strong {transition-delay: 0s}
 .resume .left.ani.on p {transition-delay: 0.1s}
+.resume .left.ani.on div {transition-delay: 0.2s}
 
 
 .resume .right.ani {}
-.resume .right.ani :is(strong, p) {
+.resume .right.ani :is(div, strong, p) {
     transform: translateY(50px);
     opacity: 0;
 }
-.resume .right.ani.on :is(strong, p) {
+.resume .right.ani.on :is(div, strong, p) {
     transform: translateY(0);
     opacity: 1;
     transition: 0.7s;
 }
-.resume .right.ani.on strong:first-child {transition-delay: 0s}
-.resume .right.ani.on p:first-child {transition-delay: 0.1s}
-.resume .right.ani.on strong:last-child {transition-delay: 0.2s}
-.resume .right.ani.on p:last-child {transition-delay: 0.3s}
+.resume .right.ani.on .careerTit {transition-delay: 0s}
+.resume .right.ani.on .careerWrap {transition-delay: 0.1s}
+.resume .right.ani.on .profileWrap {transition-delay: 0.2s}
+.resume .right.ani.on .profileWrap .rocket {transition-delay: 0.3s}
 
 
 
@@ -484,7 +518,6 @@ header .headTop .right{
     border-bottom: 1px solid #000;
     background: #6AFF82;
     font-family: "Pretendard", sans-serif;
-    font-weight: 300;
     display: inline-flex;
     padding: 27px 47px;
     box-sizing: border-box;
@@ -493,10 +526,12 @@ header .headTop .right{
 }
 .portfolioWrap .titWrap h3{
     font-size: 26px;
+    font-weight: 500;
     box-sizing: border-box;
 }
 .portfolioWrap .titWrap strong{
     font-size: 26px;
+    font-weight: 300;
 }
 
 /* ---------웹디자인 포트폴리오---------- */
@@ -585,25 +620,27 @@ header .headTop .right{
 
 .portfolioWrap .portfolio1 .img .hover .buttonWrap a,
 .portfolioWrap .portfolio2 .img .hover .buttonWrap a{
-    width: 223px;
-    height: 53px;
-    border-radius: 30px;
+    width: 309px;
+    height: 60px;
+    border-radius: 35px;
     text-align: center;
-    line-height: 53px;
+    line-height: 60px;
     font-size: 26px;
+    font-weight: 400;
     text-decoration: none;
     color: inherit;
     transition: .1s;
+
+    background: var(--linear, linear-gradient(180deg, #D8D8D8 0%, #EDEDED 22.92%, #C1C1C1 50.52%, #EDEDED 77.60%, #989898 100%));
 }
 .portfolioWrap .portfolio1 .img .hover .buttonWrap a:hover,
 .portfolioWrap .portfolio2 .img .hover .buttonWrap a:hover{
-    background-color: #6AFF82;
+    
 }
 
 .portfolioWrap .portfolio1 .img .hover .buttonWrap .cdgTop,
 .portfolioWrap .portfolio1 .img .hover .buttonWrap .cdgBtm{
     border: 1px solid black;
-    background-color: white;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -657,7 +694,7 @@ header .headTop .right{
     align-items: center;
     border-radius: 33px;
     border: 1px solid #000;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 300;
 }
 .portfolioWrap .portfolio1 .tag1{
@@ -737,6 +774,72 @@ header .headTop .right{
 }
 
 
+/* ---------------팝업-------------- */
+
+/* .popupOn {
+    overflow: hidden;
+} */
+.popupOn .layerPop {
+    display: block;
+}
+
+.layerPop {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+    padding-top: 50%;
+    box-sizing: border-box;
+}
+
+
+.layerPop .design1PopWrap .design1Pop,
+.layerPop .design3PopWrap .design3Pop1,
+.layerPop .design3PopWrap .design3Pop2,
+.layerPop .design4PopWrap .design4Pop1,
+.layerPop .design4PopWrap .design4Pop2{
+    width: 1500px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.layerPop .design1PopWrap .design1Pop img,
+.layerPop .design3PopWrap .design3Pop1 img,
+.layerPop .design3PopWrap .design3Pop2 img,
+.layerPop .design4PopWrap .design4Pop1 img,
+.layerPop .design4PopWrap .design4Pop2 img{
+    width: 100%;
+}
+
+.layerPop .design1PopWrap .close {
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 3.1%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layerPop .design1PopWrap .close img {
+    width: 85%;
+    height: 85%;
+}
+
+
+
 
 /*---------- 배너 ani ----------*/
 
@@ -758,7 +861,7 @@ header .headTop .right{
 }
 
 .portfolio3 .design2 .ani {
-    background-image: url("../img/4_2_2.png");
+    background-image: url("../img/4_2_1.png");
 }
 .portfolio3 .design2 .ani:first-child.on {
     transition-delay: 0s;
@@ -772,7 +875,7 @@ header .headTop .right{
 
 .portfolio3 .design3 .ani,
 .portfolio3 .design4 .ani{
-    background-image: url("../img/4_4_4.png");
+    background-image: url("../img/4_4_1.png");
 }
 .portfolio3 .design3 .ani:first-child.on {
     transition-delay: 0s;
@@ -792,7 +895,7 @@ header .headTop .right{
 }
 
 .portfolio3 .design5 .ani {
-    background-image: url("../img/4_8_8.png");
+    background-image: url("../img/4_8_1.png");
 }
 .portfolio3 .design5 .ani:nth-child(1).on {
     transition-delay: 0s;
@@ -815,26 +918,20 @@ header .headTop .right{
 /* ---------푸터---------- */
 
 footer{
-    background-color: #6AFF82;
+    background-image: url(../img/6.png);
     display: flex;
-    width: 100%;
-    padding: 86px 0;
+    height: 451px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 58px;
     box-sizing: border-box;
-    font-family: "Pretendard", sans-serif;
 }
 
-footer h3{
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 64px;
-}
 footer p{
+    font-family: "Pretendard", sans-serif;
+    color: #242424;
     text-align: center;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 900;
     text-decoration-line: underline;
+
 }
