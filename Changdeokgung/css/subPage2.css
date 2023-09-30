@@ -26,23 +26,21 @@
 }
 .visitInfo .infoWrap .txtBox{
     display: flex;
+    justify-content: space-between;
+    width: 1119px;
+    height: 364px;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 63px;
     color: white;
     font-family: "GmarketSans", sans-serif;
 }
 .visitInfo .infoWrap .txtBox .left{
-    left: 388px;
-    top: 63px;
-    position: absolute;
     width: 498px;
-    height: 364px;
 }
 .visitInfo .infoWrap .txtBox .right{
-    position: absolute;
     width: 498px;
-    height: 364px;
-    left: 1009px;
-    top: 63px;
 }
 .visitInfo .infoWrap .txtBox .icon{
     margin-top: 58px;

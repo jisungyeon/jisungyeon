@@ -41,5 +41,15 @@ $(".timeWrap nav .soldOut").on("click", function() {
 });
   
 
+// $(".timeWrap nav .see").on("click", function() {
+//     if ($(this).css("background-color") === "rgba(0, 0, 0, 0)") {
+//       $(this).css("background-color", "#AFDCE7");
+//     } else {
+//       $(this).css("background-color", "transparent");
+//     }
+//   });
+  
+  
+
 
 

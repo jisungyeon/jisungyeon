@@ -29,7 +29,8 @@
     position: absolute;
     width: 562px;
     height: 197px;
-    left: 679px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 155px;
 }
 .reservation .infoWrap .txtBox .iconWrap{
@@ -68,22 +69,35 @@
     font-family: "GmarketSans", sans-serif;
     position: relative;
     display: flex;
+    font-size: 0;
 }
+
+.dictionaryGuide .dictionaryGuideWrap{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+    /* border: 1px solid black; */
+    width: 1438px;
+    height: 606px;
+}
+
 .dictionaryGuide .grass1{
     position: absolute;
-    left: 238px;
-    top: 520px;
+    left: 0;
+    top: 460px;
 }
 .dictionaryGuide .grass2{
     position: absolute;
-    right: 244px;
-    top: 527px;
+    right: 0;
+    top: 467px;
 }
 .dictionaryGuide .inner{}
 .dictionaryGuide .guideTit{
     align-items: center;
     display: flex;
-    margin-top: 60px;
+    margin-left: 52px;
+    /* margin-top: 60px; */
     /*border: 2px solid black;*/
 }
 .dictionaryGuide .guideTit .icon{
@@ -103,10 +117,11 @@
     border-radius: 30px;
     border: 3px solid #3AA6BF;
     background: #EBF6F9;
-    margin-left: 71px;
-    margin-top: 27px;
+    margin-left: 120px;
+    margin-top: 37px;
     box-sizing: border-box;
     overflow: hidden;
+    font-size: 16px;
 }
 .dictionaryGuide .guideList ul{
     margin-left: 130px;
@@ -127,7 +142,7 @@
     height: 1344px;
     background-color: #EBF6F9;
     font-family: 'Noto Sans', sans-serif;
-    padding-left: 358px;
+    padding-left: 14%;
     box-sizing: border-box;
 }
 
@@ -135,7 +150,6 @@
 
 .selectWrap .dateTime{
     display: flex;
-
 }
 .selectWrap .dateSlider{
     width: 579px;
@@ -308,6 +322,12 @@
     border-radius: 25px;
     transition: .1s ease;
 }
+/* .selectWrap .timeWrap nav .see{
+    background: #AFDCE7;
+} */
+
+
+
 .selectWrap .timeWrap nav ul.on{
     background-color: #AFDCE7;
     transition: .1s ease;
