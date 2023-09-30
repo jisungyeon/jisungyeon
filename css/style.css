@@ -18,7 +18,7 @@
     z-index: 99999;
     pointer-events: none;
     border-radius: 50%;
-    transition: 100ms ease-out;
+    /* transition: 10ms ease-out; */
 }
 .followCursor img{
     width: 100%;
@@ -57,10 +57,10 @@ header .headTop{
     left: 0;
     top: 0;
     font-family: "Pretendard", sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 300;
     display: flex;
-    padding: 0 49px 0 57px;
+    padding: 0 47px 0 57px;
     box-sizing: border-box;
     /* justify-content: space-between; */
 }
@@ -104,7 +104,7 @@ header .headTop ul li a:hover{
 }
 
 header .headTop .right{
-    margin-top: 21px;
+    margin-top: 17px;
     /* margin-right: 49px; */
 }
 
@@ -117,13 +117,13 @@ header .headTop .right{
 }
 
 .home .backImg{
-    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .home .backImg img{
+    width: 100%;
 }
 
 .home .talkWrap{
@@ -292,9 +292,11 @@ header .headTop .right{
 }
 .aboutMe h2{
     font-family: "Pretendard", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 800;
     margin-bottom: 99px;
+    text-align: center;
 }
 .aboutMe .titWrap{
     width: 100%;
@@ -783,10 +785,188 @@ header .headTop .right{
 
 /* ---------------팝업-------------- */
 
+body.popupOn {
+    overflow: hidden;
+}
+body.popupOn .layerPop {
+    display: block;
+}
+
+.layerPop {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+}
+
+/* -------------첫번째 팝업-------------- */
+
+.layerPop .modal {
+    width: 1500px;
+    margin: 0 auto;
+    display: none;
+    padding-top: 15%;
+    box-sizing: border-box;
+}
+.layerPop .modal .popupArea {
+    position: relative;
+}
+.layerPop .modal .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
+/* -------------두번째 팝업-------------- */
+
+.layerPop .modal2 {
+    width: 800px;
+    margin: 0 auto;
+    display: none;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+.layerPop .modal2 .popupArea {
+    position: relative;
+}
+.layerPop .modal2 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal2 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal2 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal2 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
+/* -------------세번째 팝업-------------- */
+
+.layerPop .modal3 {
+    width: 800px;
+    margin: 0 auto;
+    display: none;
+    padding-top: 4%;
+    box-sizing: border-box;
+}
+.layerPop .modal3 .popupArea {
+    position: relative;
+}
+.layerPop .modal3 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal3 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal3 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal3 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
+/* -------------네번째 팝업-------------- */
+
+.layerPop .modal4 {
+    width: 1500px;
+    margin: 0 auto;
+    display: none;
+    padding-top: 15%;
+    box-sizing: border-box;
+}
+.layerPop .modal4 .popupArea {
+    position: relative;
+}
+.layerPop .modal4 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal4 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal4 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal4 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
 /* .popupOn {
     overflow: hidden;
 } */
-.popupOn .layerPop {
+/* .popupOn .layerPop {
     display: block;
 }
 
@@ -843,7 +1023,7 @@ header .headTop .right{
 .layerPop .design1PopWrap .close img {
     width: 85%;
     height: 85%;
-}
+} */
 
 
 
