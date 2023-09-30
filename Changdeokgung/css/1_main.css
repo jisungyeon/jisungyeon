@@ -102,11 +102,16 @@
 
 /*--------메인 슬라이드 - 슬라이드 텍스트----------*/
 
-.visual .mainTxt{}
-.visual .mainTxt .txt{
+.visual .mainTxt{
+}
+.visual .mainTxt .inner{
+    /* border: 3px solid red; */
     position: absolute;
-    right: 283px;
-    top: 412px;
+    top: 418px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.visual .mainTxt .txt{
     z-index: 9999;
     color: white;
     font-size: 32px;
@@ -124,7 +129,8 @@
 
 .quickBar {
     position: absolute;
-    left: 290px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 732px;
     height: 190px;
     border-radius: 30px;
