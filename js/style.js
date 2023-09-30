@@ -63,25 +63,80 @@ function scrollAni() {
 };
 
 
-const $bannerWrap = $(".portfolioWrap .portfolio3");
-const $banner = $(".layerPop");
+const $portfolio3 = $(".portfolioWrap .portfolio3");
 
-$bannerWrap.find(`.design1`).on("click", function() {
+
+const $modal = $(".layerPop .modal");
+
+$portfolio3.find(".design1").on("click", function() {
     $("body").addClass("popupOn");
-    $banner.show();
+    $modal.show();
 });
-
-// for (let i = 1; i <= 5; i++) {
-//     $bannerWrap.find(`.design${i}`).on("click", function() {
-//         $("body").addClass("popupOn");
-//         $banner.show();
-//     });
-// }
-
-$banner.find(".close").on("click", function() {
+$modal.find(".close").on("click", function() {
     $("body").removeClass("popupOn");
-    $banner.hide();
+    $modal.hide();
 });
+
+
+
+const $modal2 = $(".layerPop .modal2");
+
+$portfolio3.find(".design2 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal2.show();
+});
+$modal2.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal2.hide();
+});
+
+
+
+const $modal3 = $(".layerPop .modal3");
+
+$portfolio3.find(".design2 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal3.show();
+});
+$modal3.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal3.hide();
+});
+
+
+
+const $modal4 = $(".layerPop .modal4");
+
+$portfolio3.find(".design3 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal4.show();
+});
+$modal4.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal4.hide();
+});
+
+
+
+// const $bannerWrap = $(".portfolioWrap .portfolio3");
+// const $banner = $(".layerPop");
+
+// $bannerWrap.find(`.design1`).on("click", function() {
+//     $("body").addClass("popupOn");
+//     $banner.show();
+// });
+
+// // for (let i = 1; i <= 5; i++) {
+// //     $bannerWrap.find(`.design${i}`).on("click", function() {
+// //         $("body").addClass("popupOn");
+// //         $banner.show();
+// //     });
+// // }
+
+// $banner.find(".close").on("click", function() {
+//     $("body").removeClass("popupOn");
+//     $banner.hide();
+// });
 
 
 
