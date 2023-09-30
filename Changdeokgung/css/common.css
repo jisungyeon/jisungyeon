@@ -90,7 +90,11 @@ header .headerInner:hover .headerGnb .sub{
 }
 header .headerMenu .headerBack .headImg1{
     position: absolute;
+<<<<<<< HEAD
     margin-left: 60px;
+=======
+    margin-left: 130px;
+>>>>>>> 7e7746a1b24881378f0507eabaabcc755f7fb227
     bottom: 0;
 }
 
