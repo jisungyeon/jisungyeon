@@ -117,6 +117,73 @@ $modal4.find(".close").on("click", function() {
 });
 
 
+const $modal5 = $(".layerPop .modal5");
+
+$portfolio3.find(".design3 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal5.show();
+});
+$modal5.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal5.hide();
+});
+
+
+const $modal6 = $(".layerPop .modal6");
+
+$portfolio3.find(".design4 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal6.show();
+});
+$modal6.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal6.hide();
+});
+
+
+const $modal7 = $(".layerPop .modal7");
+
+$portfolio3.find(".design4 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal7.show();
+});
+$modal7.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal7.hide();
+});
+
+
+const $modal8 = $(".layerPop .modal8");
+
+$portfolio3.find(".design5 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal8.show();
+});
+$modal8.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal8.hide();
+});
+
+
+const $modal9 = $(".layerPop .modal9");
+
+$portfolio3.find(".design5 .mid").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal9.show();
+});
+$modal9.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal9.hide();
+});
+
+
+
+
+
+
+
+
+
 
 // const $bannerWrap = $(".portfolioWrap .portfolio3");
 // const $banner = $(".layerPop");
