@@ -52,7 +52,7 @@ function scrollAni() {
 
     const $ani = $(".ani");
     for (let i = 0; i < $ani.length; i++) {
-        if (scrollTop + winH/1.3 > $ani.eq(i).offset().top) {
+        if (scrollTop + winH/1.2 > $ani.eq(i).offset().top) {
             $ani.eq(i).addClass("on");
         } else {
             $ani.eq(i).removeClass("on");
@@ -63,8 +63,8 @@ function scrollAni() {
 };
 
 
-const $portfolio3 = $(".portfolioWrap .portfolio3");
 
+const $portfolio3 = $(".portfolioWrap .portfolio3");
 
 const $modal = $(".layerPop .modal");
 
@@ -174,6 +174,18 @@ $portfolio3.find(".design5 .mid").on("click", function() {
 $modal9.find(".close").on("click", function() {
     $("body").removeClass("popupOn");
     $modal9.hide();
+});
+
+
+const $modal10 = $(".layerPop .modal10");
+
+$portfolio3.find(".design5 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal10.show();
+});
+$modal10.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal10.hide();
 });
 
 
