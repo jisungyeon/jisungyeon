@@ -18,7 +18,8 @@
     z-index: 99999;
     pointer-events: none;
     border-radius: 50%;
-    transition: 10ms linear;
+    transition: 50ms linear;
+    /* transition: 150ms ease-out; */
 }
 .followCursor img{
     width: 100%;
@@ -273,15 +274,16 @@ header .headTop .right{
 .home .hand {
     position: absolute;
     top: 499px;
-    right: 332px;
+    right: 270px;
     width: 102px;
     height: 102px;
-    z-index: 99;
+    z-index: 1;
 }
 .home .hand img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* transform: scaleX(-1); */
 }
 
 /* ------------이력서-------------- */
@@ -344,7 +346,7 @@ header .headTop .right{
     text-transform: capitalize;
     white-space: nowrap;
     overflow: hidden;
-
+    letter-spacing: -1px;
 }
 
 .aboutMe .tools .design{
@@ -758,7 +760,9 @@ header .headTop .right{
 .portfolio3 .design2,
 .portfolio3 .design3,
 .portfolio3 .design4,
-.portfolio3 .design5{
+.portfolio3 .design5,
+.portfolio3 .design6,
+.portfolio3 .design7{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -783,6 +787,14 @@ header .headTop .right{
 .portfolio3 .design5 .ani{
     width: 441px;
     height: 525px;
+    cursor: pointer;
+}
+.portfolio3 .design6.ani{
+    height: 155px;
+    cursor: pointer;
+}
+.portfolio3 .design7.ani{
+    height: 155px;
     cursor: pointer;
 }
 
@@ -829,11 +841,11 @@ body.popupOn .layerPop {
 .layerPop .modal .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -869,11 +881,11 @@ body.popupOn .layerPop {
 .layerPop .modal2 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -909,11 +921,11 @@ body.popupOn .layerPop {
 .layerPop .modal3 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -949,11 +961,11 @@ body.popupOn .layerPop {
 .layerPop .modal4 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -990,11 +1002,11 @@ body.popupOn .layerPop {
 .layerPop .modal5 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -1030,11 +1042,11 @@ body.popupOn .layerPop {
 .layerPop .modal6 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -1071,11 +1083,11 @@ body.popupOn .layerPop {
 .layerPop .modal7 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -1112,11 +1124,11 @@ body.popupOn .layerPop {
 .layerPop .modal8 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -1153,11 +1165,11 @@ body.popupOn .layerPop {
 .layerPop .modal9 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -1194,11 +1206,11 @@ body.popupOn .layerPop {
 .layerPop .modal10 .popupArea .close {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #fff;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -1212,6 +1224,86 @@ body.popupOn .layerPop {
     height: 85%;
 }
 
+/* -------------열한번째 팝업-------------- */
+
+.layerPop .modal11 {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    padding-top: 20%;
+    box-sizing: border-box;
+}
+.layerPop .modal11 .popupArea {
+    position: relative;
+}
+.layerPop .modal11 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal11 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal11 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal11 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
+
+/* -------------열두번째 팝업-------------- */
+
+.layerPop .modal12 {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    padding-top: 20%;
+    box-sizing: border-box;
+}
+.layerPop .modal12 .popupArea {
+    position: relative;
+}
+.layerPop .modal12 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal12 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal12 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal12 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
 
 
 
@@ -1351,9 +1443,21 @@ body.popupOn .layerPop {
     background-image: url("../img/4_10.png");
 }
 
+.portfolio3 .design6.ani{
+    background-image: url("../img/4_11_1.png");
+}
+.portfolio3 .design6.ani.on{
+    transition-delay: 0.1s;
+    background-image: url("../img/4_11.png");
+}
 
-
-
+.portfolio3 .design7.ani{
+    background-image: url("../img/4_12_1.png");
+}
+.portfolio3 .design7.ani.on{
+    transition-delay: 0.1s;
+    background-image: url("../img/4_12.png");
+}
 
 
 /* ---------푸터---------- */
