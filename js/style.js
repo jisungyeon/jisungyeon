@@ -188,6 +188,28 @@ $modal10.find(".close").on("click", function() {
     $modal10.hide();
 });
 
+const $modal11 = $(".layerPop .modal11");
+
+$portfolio3.find(".design6").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal11.show();
+});
+$modal11.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal11.hide();
+});
+
+const $modal12 = $(".layerPop .modal12");
+
+$portfolio3.find(".design7").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal12.show();
+});
+$modal12.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal12.hide();
+});
+
 
 
 
