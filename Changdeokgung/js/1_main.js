@@ -10,8 +10,8 @@ slider.slick({
     dotsClass: "customDots",
 
     autoplay: true,
-    autoplaySpeed: 3000,
-    speed: 500,
+    autoplaySpeed: 2500,
+    speed: 400,
 });
 
 function showFloatingMenu() {
