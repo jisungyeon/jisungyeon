@@ -68,7 +68,7 @@ const $portfolio3 = $(".portfolioWrap .portfolio3");
 
 const $modal = $(".layerPop .modal");
 
-$portfolio3.find(".design1").on("click", function() {
+$portfolio3.find(".design1 .left").on("click", function() {
     $("body").addClass("popupOn");
     $modal.show();
 });
@@ -78,10 +78,9 @@ $modal.find(".close").on("click", function() {
 });
 
 
-
 const $modal2 = $(".layerPop .modal2");
 
-$portfolio3.find(".design2 .left").on("click", function() {
+$portfolio3.find(".design1 .right").on("click", function() {
     $("body").addClass("popupOn");
     $modal2.show();
 });
@@ -94,7 +93,7 @@ $modal2.find(".close").on("click", function() {
 
 const $modal3 = $(".layerPop .modal3");
 
-$portfolio3.find(".design2 .right").on("click", function() {
+$portfolio3.find(".design2 .left").on("click", function() {
     $("body").addClass("popupOn");
     $modal3.show();
 });
@@ -104,10 +103,9 @@ $modal3.find(".close").on("click", function() {
 });
 
 
-
 const $modal4 = $(".layerPop .modal4");
 
-$portfolio3.find(".design3 .left").on("click", function() {
+$portfolio3.find(".design2 .mid").on("click", function() {
     $("body").addClass("popupOn");
     $modal4.show();
 });
@@ -117,9 +115,10 @@ $modal4.find(".close").on("click", function() {
 });
 
 
+
 const $modal5 = $(".layerPop .modal5");
 
-$portfolio3.find(".design3 .right").on("click", function() {
+$portfolio3.find(".design2 .right").on("click", function() {
     $("body").addClass("popupOn");
     $modal5.show();
 });
@@ -129,9 +128,10 @@ $modal5.find(".close").on("click", function() {
 });
 
 
+
 const $modal6 = $(".layerPop .modal6");
 
-$portfolio3.find(".design4 .left").on("click", function() {
+$portfolio3.find(".design3 .left").on("click", function() {
     $("body").addClass("popupOn");
     $modal6.show();
 });
@@ -143,7 +143,7 @@ $modal6.find(".close").on("click", function() {
 
 const $modal7 = $(".layerPop .modal7");
 
-$portfolio3.find(".design4 .right").on("click", function() {
+$portfolio3.find(".design3 .mid").on("click", function() {
     $("body").addClass("popupOn");
     $modal7.show();
 });
@@ -153,9 +153,10 @@ $modal7.find(".close").on("click", function() {
 });
 
 
+
 const $modal8 = $(".layerPop .modal8");
 
-$portfolio3.find(".design5 .left").on("click", function() {
+$portfolio3.find(".design3 .right").on("click", function() {
     $("body").addClass("popupOn");
     $modal8.show();
 });
@@ -167,7 +168,7 @@ $modal8.find(".close").on("click", function() {
 
 const $modal9 = $(".layerPop .modal9");
 
-$portfolio3.find(".design5 .mid").on("click", function() {
+$portfolio3.find(".design4 .left").on("click", function() {
     $("body").addClass("popupOn");
     $modal9.show();
 });
@@ -179,7 +180,7 @@ $modal9.find(".close").on("click", function() {
 
 const $modal10 = $(".layerPop .modal10");
 
-$portfolio3.find(".design5 .right").on("click", function() {
+$portfolio3.find(".design4 .right").on("click", function() {
     $("body").addClass("popupOn");
     $modal10.show();
 });
@@ -188,20 +189,22 @@ $modal10.find(".close").on("click", function() {
     $modal10.hide();
 });
 
-const $modal11 = $(".layerPop .modal11");
 
-$portfolio3.find(".design6").on("click", function() {
-    $("body").addClass("popupOn");
-    $modal11.show();
-});
-$modal11.find(".close").on("click", function() {
-    $("body").removeClass("popupOn");
-    $modal11.hide();
-});
+// const $modal11 = $(".layerPop .modal11");
+
+// $portfolio3.find(".design5 .left").on("click", function() {
+//     $("body").addClass("popupOn");
+//     $modal11.show();
+// });
+// $modal11.find(".close").on("click", function() {
+//     $("body").removeClass("popupOn");
+//     $modal11.hide();
+// });
+
 
 const $modal12 = $(".layerPop .modal12");
 
-$portfolio3.find(".design7").on("click", function() {
+$portfolio3.find(".design5 .mid").on("click", function() {
     $("body").addClass("popupOn");
     $modal12.show();
 });
@@ -209,6 +212,199 @@ $modal12.find(".close").on("click", function() {
     $("body").removeClass("popupOn");
     $modal12.hide();
 });
+
+
+const $modal13 = $(".layerPop .modal13");
+
+$portfolio3.find(".design6 .ani").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal13.show();
+});
+$modal13.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal13.hide();
+});
+
+
+const $modal14 = $(".layerPop .modal14");
+
+$portfolio3.find(".design7 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal14.show();
+});
+$modal14.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal14.hide();
+});
+
+
+const $modal15 = $(".layerPop .modal15");
+
+$portfolio3.find(".design7 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal15.show();
+});
+$modal15.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal15.hide();
+});
+
+
+const $modal16 = $(".layerPop .modal16");
+
+$portfolio3.find(".design8 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal16.show();
+});
+$modal16.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal16.hide();
+});
+
+
+const $modal17 = $(".layerPop .modal17");
+
+$portfolio3.find(".design8 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal17.show();
+});
+$modal17.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal17.hide();
+});
+
+
+const $modal18 = $(".layerPop .modal18");
+
+$portfolio3.find(".design9 .ani").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal18.show();
+});
+$modal18.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal18.hide();
+});
+
+
+const $modal19 = $(".layerPop .modal19");
+
+$portfolio3.find(".design10 .ani").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal19.show();
+});
+$modal19.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal19.hide();
+});
+
+
+const $modal20 = $(".layerPop .modal20");
+
+$portfolio3.find(".design11 .ani").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal20.show();
+});
+$modal20.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal20.hide();
+});
+
+
+const $modal21 = $(".layerPop .modal21");
+
+$portfolio3.find(".design12 .one").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal21.show();
+});
+$modal21.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal21.hide();
+});
+
+
+const $modal22 = $(".layerPop .modal22");
+
+$portfolio3.find(".design12 .two").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal22.show();
+});
+$modal22.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal22.hide();
+});
+
+
+const $modal23 = $(".layerPop .modal23");
+
+$portfolio3.find(".design12 .three").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal23.show();
+});
+$modal23.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal23.hide();
+});
+
+
+const $modal24 = $(".layerPop .modal24");
+
+$portfolio3.find(".design12 .four").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal24.show();
+});
+$modal24.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal24.hide();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const $modal3 = $(".layerPop .modal3");
+
+// $portfolio3.find(".design2 .right").on("click", function() {
+//     $("body").addClass("popupOn");
+//     $modal3.show();
+// });
+// $modal3.find(".close").on("click", function() {
+//     $("body").removeClass("popupOn");
+//     $modal3.hide();
+// });
+
+
+
 
 
 
