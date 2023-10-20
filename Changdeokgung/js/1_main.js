@@ -11,7 +11,7 @@ slider.slick({
 
     autoplay: true,
     autoplaySpeed: 2500,
-    speed: 400,
+    speed: 400
 });
 
 function showFloatingMenu() {
@@ -37,6 +37,24 @@ function showFloatingMenu() {
     });
 }
 showFloatingMenu();
+
+
+
+const $saleBanner = $("section.saleBanner");
+
+$saleBanner.find(".slider").slick({
+    dots: true,
+    appendDots: $saleBanner.find(".dotsWrap"),
+    dotsClass: "customDots",
+
+    arrows: true,
+    prevArrow: $saleBanner.find(".prevArrow"),
+    nextArrow: $saleBanner.find(".nextArrow"),
+
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 400
+});
 
 
 
