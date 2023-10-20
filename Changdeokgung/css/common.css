@@ -17,12 +17,13 @@ header {
 
 header.on{
     background-color: white;
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid #ebebeb;
     transform: translateY(0);
     padding:  0;
+    box-shadow: 0px 3px 10px rgba(134, 134, 134, .15);
 }
 header.on .headerInner {
-    transform: translateY(0);
+    transform: translateY(0);    
 }
 
 header.on .headerBack{
@@ -30,6 +31,7 @@ header.on .headerBack{
     padding: 0 11.5%;
     box-sizing: border-box;
     border-bottom: 1px solid #eee;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -65,7 +67,7 @@ header .headerMenu .headerGnb > li{
     text-align: center;
     font-family: "Pretendard", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 19px;
 }
 header .headerMenu .headerGnb > li > a{
     text-decoration: none;
@@ -106,10 +108,10 @@ header .headerMenu .headerGnb .sub li:nth-child(3){
 header .headerMenu .headerGnb .sub li a{
     text-decoration: none;
     font-size: 16px;
-    color: #787878;
+    color: #3c3c3c;
 }
 header .headerMenu .headerGnb .sub li a:hover{
-    color: #303030;
+    color: #202020;
     font-weight: 700;
     font-family: "Pretendard", sans-serif;
 }

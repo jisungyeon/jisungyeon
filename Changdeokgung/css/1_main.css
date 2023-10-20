@@ -341,19 +341,70 @@
 
 /*--------배너 슬라이드----------*/
 
-.saleBanner{
+.saleBanner {    
+    position: relative;
     width: 100%;
-    height: 220px;
-    background-color: #FFF28E;
-    overflow: hidden;
 }
-.saleBanner .bannerSlide{}
-.saleBanner .bannerSlide .slick-slide{}
-.saleBanner .bannerSlide .slick-slide img{
+.saleBanner .slideWrap {
+    position: relative;
+}
+.saleBanner .slideWrap .slider {}
+.saleBanner .slideWrap .slider .slick-slide {}
 
+.saleBanner .slideWrap .prevArrow,
+.saleBanner .slideWrap .nextArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    /* background: rgba(189, 189, 189, 0.5); */
+    text-align: center;
+    line-height: 30px;
 }
-.saleBanner .prevArrow{}
-.saleBanner .nextArrow{}
+.saleBanner .slideWrap .prevArrow {
+    left: 20px;
+}
+.saleBanner .slideWrap .nextArrow {
+    right: 20px;
+}
+
+.saleBanner .dotsWrap {
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    transform: translateX(-50%);
+    width: 58px;
+    height: 26px;
+    border-radius: 20px;
+    /* background: rgba(255,255,255,.6); */
+}
+
+
+.saleBanner .dotsWrap .customDots{
+    font-size: 0;
+    text-align: center;
+}
+.saleBanner .dotsWrap .customDots li{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+.saleBanner .dotsWrap .customDots li:last-child{
+    margin-right: 0;
+}
+.saleBanner .dotsWrap .customDots li button{
+    display: none;
+}
+.saleBanner .dotsWrap .customDots li.slick-active{
+    background: #287283;
+}
 
 
 /*--------공지----------*/
@@ -379,13 +430,16 @@
 .notice .inner{
     display: flex;
     justify-content: space-between;
-    /*border: 2px solid black;*/
+    /* border: 2px solid black; */
+    box-sizing: border-box;
 }
 
 /*--------공지-왼쪽---------*/
 
 .notice .left{
     width: 670px;
+    /* border: 1px solid black; */
+    margin-right: 18px;
 }
 .notice .left .report{
     position: relative;
@@ -473,7 +527,9 @@
 
 /*--------공지-오른쪽---------*/
 
-.notice .right{}
+.notice .right{
+    /* border: 1px solid black; */
+}
 
 .notice .right .top{
     margin-bottom: 18px;
@@ -484,13 +540,9 @@
     color: #FFF;
     margin-bottom: 18px;
 }
-.notice .right .middle .txtBox{
-    position: absolute;
-    left: 33px;
-    top: 173px;
-}
 .notice .right .bottom{
     display: flex;
+    font-size: 0;
 }
 .notice .right .bottom .box1{
     margin-right: 18px;
@@ -500,29 +552,6 @@
     position: relative;
     color: #FFF;
 }
-.notice .right .bottom .box1 .txtBox,
-.notice .right .bottom .box2 .txtBox {
-    position: absolute;
-    left: 33px;
-    top: 156px;
-}
-.notice .right h3{
-    font-family: Gmarket Sans, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 5px;
-}
-.notice .right p{
-    font-weight: 500;
-    font-family: "Pretendard", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-}
-.notice .right .bottom .box2 .txtBox{
-    text-shadow: 0 0 20px 0 rgba(99, 73, 50, 0.70);
-}
-
 .notice .right img{
     cursor: pointer;
 }
