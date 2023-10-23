@@ -52,7 +52,7 @@ function scrollAni() {
 
     const $ani = $(".ani");
     for (let i = 0; i < $ani.length; i++) {
-        if (scrollTop + winH/1.2 > $ani.eq(i).offset().top) {
+        if (scrollTop + winH/1.05 > $ani.eq(i).offset().top) {
             $ani.eq(i).addClass("on");
         } else {
             $ani.eq(i).removeClass("on");
@@ -216,7 +216,7 @@ $modal12.find(".close").on("click", function() {
 
 const $modal13 = $(".layerPop .modal13");
 
-$portfolio3.find(".design6 .ani").on("click", function() {
+$portfolio3.find(".design5 .right").on("click", function() {
     $("body").addClass("popupOn");
     $modal13.show();
 });
