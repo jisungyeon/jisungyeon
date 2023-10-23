@@ -646,22 +646,22 @@ header .headTop .right{
     width: 648px;
     height: 505px;
     border-radius: 30px;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
 }
 .portfolio1 .cdg .ani.on{
-    transition-delay: 0s;
+    transition-delay: 0.1s;
     background-image: url("../img/3_cdg.png");
 }
 .portfolio1 .treeTech .ani.on {
-    transition-delay: 0.1s;
+    transition-delay: 0.15s;
     background-image: url("../img/3_treeTech.png");
 }
 .portfolio2 .casper .ani.on{
-    transition-delay: 0s;
+    transition-delay: 0.1s;
     background-image: url("../img/3_portfolio.png");
 }
 .portfolio2 .library .ani.on {
-    transition-delay: 0.1s;
+    transition-delay: 0.15s;
     background-image: url("../img/3_casper.png");
 }
 
@@ -1675,7 +1675,7 @@ body.popupOn .layerPop {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
     background-image: url(../img/5_photoGrid2.png);
 }
 
@@ -1684,14 +1684,14 @@ body.popupOn .layerPop {
     background-image: url("../img/4_1_1.png");
 }
 .portfolio3 .design1 .ani:first-child.on{
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
     background-image: url("../img/4_1.png");
 }
 .portfolio3 .design1 .ani:last-child{
     background-image: url("../img/4_1_1.png");
 }
 .portfolio3 .design1 .ani:last-child.on {
-    transition-delay: 0.3s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_2.png");
 }
 
@@ -1709,7 +1709,7 @@ body.popupOn .layerPop {
     background-image: url("../img/4_3_1.png");
 }
 .portfolio3 .design2 .ani.mid.on{
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_4.png");
 }
 
@@ -1717,7 +1717,7 @@ body.popupOn .layerPop {
     background-image: url("../img/4_3_1.png");
 }
 .portfolio3 .design2 .ani.ani:last-child.on{
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
     background-image: url("../img/4_5.png");
 }
 
@@ -1735,14 +1735,14 @@ body.popupOn .layerPop {
     background-image: url("../img/4_6_1.png");
 }
 .portfolio3 .design3 .ani.mid.on{
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_7.png");
 }
 .portfolio3 .design3 .ani.ani:last-child{
     background-image: url("../img/4_6_1.png");
 }
 .portfolio3 .design3 .ani.ani:last-child.on{
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
     background-image: url("../img/4_8.png");
 }
 
@@ -1760,7 +1760,7 @@ body.popupOn .layerPop {
     background-image: url("../img/4_9_1.png");
 }
 .portfolio3 .design4 .ani.ani:last-child.on{
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_10.png");
 }
 
@@ -1783,7 +1783,7 @@ body.popupOn .layerPop {
     background-image: url("../img/4_12.png");
 }
 .portfolio3 .design5 .ani:nth-child(3).on {
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_13.png");
 }
 
@@ -1809,7 +1809,7 @@ body.popupOn .layerPop {
     background-image: url("../img/4_15_1.png");
 }
 .portfolio3 .design7 .ani.ani:last-child.on{
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_16.png");
 }
 
@@ -1826,7 +1826,7 @@ body.popupOn .layerPop {
     background-image: url("../img/4_15_1.png");
 }
 .portfolio3 .design8 .ani.ani:last-child.on{
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_18.png");
 }
 
@@ -1863,15 +1863,15 @@ body.popupOn .layerPop {
     background-image: url("../img/4_22.png");
 }
 .portfolio3 .design12 .ani.two.on {
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
     background-image: url("../img/4_23.png");
 }
 .portfolio3 .design12 .ani.three.on {
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
     background-image: url("../img/4_24.png");
 }
 .portfolio3 .design12 .ani.four.on {
-    transition-delay: 0.4s;
+    transition-delay: 0.25s;
     background-image: url("../img/4_25.png");
 }
 
