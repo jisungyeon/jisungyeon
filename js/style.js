@@ -127,6 +127,28 @@ $modal5.find(".close").on("click", function() {
     $modal5.hide();
 });
 
+const $modal5_1 = $(".layerPop .modal5_1");
+
+$portfolio3.find(".design2_1 .left").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal5_1.show();
+});
+$modal5_1.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal5_1.hide();
+});
+
+const $modal5_2 = $(".layerPop .modal5_2");
+
+$portfolio3.find(".design2_1 .right").on("click", function() {
+    $("body").addClass("popupOn");
+    $modal5_2.show();
+});
+$modal5_2.find(".close").on("click", function() {
+    $("body").removeClass("popupOn");
+    $modal5_2.hide();
+});
+
 
 
 const $modal6 = $(".layerPop .modal6");
