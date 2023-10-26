@@ -789,6 +789,7 @@ header .headTop .right{
 
 .portfolio3 .design1,
 .portfolio3 .design2,
+.portfolio3 .design2_1,
 .portfolio3 .design3,
 .portfolio3 .design4,
 .portfolio3 .design5,
@@ -816,6 +817,11 @@ header .headTop .right{
     display: flex;
     width: 440px;
     height: 525px;
+    cursor: pointer;
+}
+.portfolio3 .design2_1 .ani{
+    width: 670px;
+    height: 687px;
     cursor: pointer;
 }
 .portfolio3 .design3 .ani{
@@ -1097,6 +1103,86 @@ body.popupOn .layerPop {
 }
 
 .layerPop .modal5 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
+/* -------------5_1 팝업-------------- */
+
+.layerPop .modal5_1 {
+    width: 41%;
+    margin: 0 auto;
+    display: none;
+    padding-top: 4.5%;
+    box-sizing: border-box;
+}
+.layerPop .modal5_1 .popupArea {
+    position: relative;
+}
+.layerPop .modal5_1 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal5_1 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal5_1 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal5_1 .popupArea .close img {
+    width: 85%;
+    height: 85%;
+}
+
+/* -------------5_2 팝업-------------- */
+
+.layerPop .modal5_2 {
+    width: 41%;
+    margin: 0 auto;
+    display: none;
+    padding-top: 5.5%;
+    box-sizing: border-box;
+}
+.layerPop .modal5_2 .popupArea {
+    position: relative;
+}
+.layerPop .modal5_2 .popupArea .popupWrap {
+    font-size: 0;
+}
+.layerPop .modal5_2 .popupArea .popupWrap img {
+    width: 100%;
+}
+
+.layerPop .modal5_2 .popupArea .close {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerPop .modal5_2 .popupArea .close img {
     width: 85%;
     height: 85%;
 }
@@ -1719,6 +1805,21 @@ body.popupOn .layerPop {
 .portfolio3 .design2 .ani.ani:last-child.on{
     transition-delay: 0.2s;
     background-image: url("../img/4_5.png");
+}
+
+.portfolio3 .design2_1 .ani:first-child {
+    background-image: url("../img/4_1_1.png");
+}
+.portfolio3 .design2_1 .ani:first-child.on{
+    transition-delay: 0.1s;
+    background-image: url("../img/4_5_2.png");
+}
+.portfolio3 .design2_1 .ani:last-child{
+    background-image: url("../img/4_1_1.png");
+}
+.portfolio3 .design2_1 .ani:last-child.on {
+    transition-delay: 0.15s;
+    background-image: url("../img/4_5_4.png");
 }
 
 
