@@ -909,10 +909,10 @@ body.popupOn .layerPop {
 /* -------------첫번째 팝업-------------- */
 
 .layerPop .modal {
-    width: 41%;
+    width: 70%;
     margin: 0 auto;
     display: none;
-    padding-top: 4.5%;
+    /* padding-top: 1%; */
     box-sizing: border-box;
 }
 .layerPop .modal .popupArea {
