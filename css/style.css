@@ -495,7 +495,7 @@ header .headTop .right{
     display: flex;
 }
 .aboutMe .resumeWrap .resume .right .career1 p:first-child{
-    margin-right: 20px;
+    margin-right: 19px;
 }
 .aboutMe .resumeWrap .resume .right .career2 p:first-child{
     margin-right: 115px;
@@ -549,7 +549,7 @@ header .headTop .right{
 }
 .resume .right.ani.on .careerTit {transition-delay: 0s}
 .resume .right.ani.on .careerWrap {transition-delay: 0.1s}
-.resume .right.ani.on .profileWrap {transition-delay: 0.2s}
+.resume .right.ani.on .profileWrap {transition-delay: 0.3s}
 .resume .right.ani.on .profileWrap .rocket {transition-delay: 0.3s}
 
 
