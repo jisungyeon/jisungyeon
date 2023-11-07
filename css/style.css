@@ -495,13 +495,13 @@ header .headTop .right{
     display: flex;
 }
 .aboutMe .resumeWrap .resume .right .career1 p:first-child{
-    margin-right: 28px;
+    margin-right: 20px;
 }
 .aboutMe .resumeWrap .resume .right .career2 p:first-child{
     margin-right: 115px;
 }
 .aboutMe .resumeWrap .resume .right .career3 p:first-child{
-    margin-right: 20px;
+    margin-right: 28px;
 }
 .aboutMe .resumeWrap .resume .right .career3 {
     margin-bottom: 28px;
@@ -923,6 +923,7 @@ body.popupOn .layerPop {
 }
 .layerPop .modal .popupArea .popupWrap img {
     width: 100%;
+    
 }
 
 .layerPop .modal .popupArea .close {
