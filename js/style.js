@@ -334,7 +334,7 @@ $modal20.find(".close").on("click", function() {
 
 const $modal21 = $(".layerPop .modal21");
 
-$portfolio3.find(".design12 .one").on("click", function() {
+$portfolio3.find(".design12 .ani").on("click", function() {
     $("body").addClass("popupOn");
     $modal21.show();
 });
