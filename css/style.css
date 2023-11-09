@@ -902,7 +902,7 @@ body.popupOn .layerPop {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 9999;
 }
 
@@ -1663,7 +1663,7 @@ body.popupOn .layerPop {
 .layerPop .modal22 .popupArea .close,
 .layerPop .modal23 .popupArea .close,
 .layerPop .modal24 .popupArea .close{
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     right: -100px;
     top: 50%;
