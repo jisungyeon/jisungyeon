@@ -879,7 +879,7 @@ header .headTop .right{
 }
 
 .portfolio3 .design12 .ani{
-    width: 331px;
+    width: 100%;
     height: 401px;
     cursor: pointer;
 }
@@ -1634,10 +1634,10 @@ body.popupOn .layerPop {
 .layerPop .modal22,
 .layerPop .modal23,
 .layerPop .modal24{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: none;
-    padding-top: 2.5%;
+    padding-top: 14%;
     box-sizing: border-box;
 }
 .layerPop .modal21 .popupArea,
@@ -1663,7 +1663,7 @@ body.popupOn .layerPop {
 .layerPop .modal22 .popupArea .close,
 .layerPop .modal23 .popupArea .close,
 .layerPop .modal24 .popupArea .close{
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     right: -100px;
     top: 50%;
@@ -1960,7 +1960,7 @@ body.popupOn .layerPop {
 .portfolio3 .design12 .ani{
     background-image: url("../img/4_22_1.png");
 }
-.portfolio3 .design12 .ani.one.on {
+.portfolio3 .design12 .ani.on {
     transition-delay: 0.1s;
     background-image: url("../img/4_22.png");
 }
